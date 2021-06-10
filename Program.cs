@@ -22,7 +22,7 @@ namespace C_Sharp_Einstieg
             }
             else
             {
-                Console.WriteLine("Spieler tot");
+                Console.WriteLine("Spieler ist gestorben");
             }
 
             DoSomthingWithPlayer(playerOne);
