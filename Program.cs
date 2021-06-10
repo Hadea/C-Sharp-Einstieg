@@ -9,7 +9,9 @@ namespace C_Sharp_Einstieg
 
         static void Main()
         {
+            Kontrollstrukturen.DoSomething();
 
+            /*
 
             // objekte von Klassen erstellen
             Player playerOne = new Player(2);
@@ -27,7 +29,7 @@ namespace C_Sharp_Einstieg
 
             DoSomthingWithPlayer(playerOne);
 
-           
+           */
         }
 
         public static void DoSomthingWithPlayer(Player PlayerToWorkWith)
