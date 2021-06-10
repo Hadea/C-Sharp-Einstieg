@@ -53,6 +53,20 @@ namespace C_Sharp_Einstieg
             shortList.Add(12);
             shortList.Add(100);
             shortList[2] = 5; // überschreibt das element an ID 2 mit dem wert 5
+
+            // LinkedList
+            // Erstellt eine Kette von Elementen bei der jedes element seinen nachfolger und vorgänger
+            // kennt. Einfügen und ausschneiden funktionieren sehr schnell.
+            // Auslesen eines einzelnen elementes erfordert immer von kettenglied zu kettenglied zu springen
+            // in Verbindung mit foreach wird dieser Nachteil aufgehoben da diese schleife sich das
+            // benutzte kettenglied merkt
+
+            LinkedList<int> integerLinkedList = new LinkedList<int>();
+            integerLinkedList.AddLast(5);
+            integerLinkedList.AddLast(3);
+            integerLinkedList.AddFirst(12);// fügt einen neuen anfang hinzu
+            integerLinkedList.RemoveLast();
+
         }
     }
 }
