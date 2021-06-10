@@ -9,7 +9,14 @@ namespace C_Sharp_Einstieg
 
         static void Main()
         {
-            Kontrollstrukturen.DoSomething();
+            byte[] array = new byte[5];
+            Random rndGen = new Random();
+            rndGen.NextBytes(array);
+
+            Sorting.SelectionSort(array);
+
+
+            //Kontrollstrukturen.DoSomething();
 
             /*
 
